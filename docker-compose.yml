@@ -21,9 +21,9 @@ services:
     ports:
       - 8080:8080
 
-  moj-php:
+  mydev-php:
     build: .
     environment:
-      - VIRTUAL_HOST=drugisajt.com,jednostavni.com,trecisajt.com
+      - VIRTUAL_HOST=devwebsite.local,another-website.local,thethird-website.local
     volumes:
       - .:/var/www/html
